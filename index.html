@@ -10,11 +10,62 @@
 			integrity="sha384-0gxUXCCR8yv9FM2b+U3FDbsKthCI66oH5IA9fHppQq9DDMHuMauqq1ZHBpJxQ0J0"
 			crossorigin="anonymous"
 		></script>
+
+		<link
+			rel="stylesheet"
+			href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+		/>
+
+		<style>
+			h3 {
+				font-family: "Open Sans", sans-serif;
+				font-optical-sizing: auto;
+			}
+			p {
+				font-family: "Lato", sans-serif;
+			}
+		</style>
 	</head>
 
 	<body>
+		<nav class="flex flex-row justify-between w-screen py-2 px-4">
+			<p>Sandbox</p>
+			<div class="flex flex-row gap-4">
+				<p>Demos</p>
+				<p>Pages</p>
+				<p>Project</p>
+				<p>Blog</p>
+				<p>Blocs</p>
+				<p>Documentation</p>
+			</div>
+			<div class="flex flex-row gap-4">
+				<p>EN</p>
+				<p>LOGO</p>
+			</div>
+		</nav>
+
 		<main class="flex flex-col items-center">
-			<p>I will built this with HTMX and node</p>
+			<div class="flex flex-row w-full h-[500px]">
+				<img
+					src="/images/bg_header_1.png"
+					class="rounded-xl object-contain w-1/2"
+				/>
+				<div class="flex flex-col w-1/2 justify-center">
+					<h3 class="text-4xl md:text-5xl text-start">
+						Grow Your Business with Our Solutions.
+					</h3>
+					<p class="text-start text-md md:text-xl pt-4">
+						We help our clients to increase their website traffic, rankings and
+						visibility in search results.
+					</p>
+					<button
+						type="button"
+						class="bg-yellow-500 text-white rounded-full w-[150px] md:w-[200px] py-2 px-4 my-4 md:py-3"
+					>
+						<p class="text-md md:text-xl">Try it for free</p>
+					</button>
+				</div>
+			</div>
 		</main>
 	</body>
 </html>
